@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0343/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0343/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈飛散傳信錄
+  date: '2015-08-29 00:56:20.052620'
+  source:
+    repository: kanripo
+    path: KR5c0343
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0343_000-ZTDZ.yaml, hash: 'sha256:d0072c3df8526fb7c82f16641907f8172484efc84427499cb62f47f2d1decf55'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0343_000-ZTDZ.markers.yaml, hash: 'sha256:1bb3335e0ee04b46693ed4cf007f627f6e40e0755630fde3a60af505335a9ac8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0343_SJB_000-190363c
+    span:
+    - body
+    - 0
+    - 1806
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:51f3431b7083be429b3d6d8dcd7f48f72e9a56aaa39e381e0d52035fd5c83c5b
